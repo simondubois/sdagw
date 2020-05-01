@@ -1,0 +1,16 @@
+#/bin/bash
+
+export PATH=$PATH:./vendor/bin:./node_modules/.bin
+export HISTFILE=$HOME/.bash_history_plan
+touch $HISTFILE
+
+function dev-install {
+    # git clone git@github.com:simondubois/plan.git ./
+    npm install
+}
+
+function prod-update {
+    npm run build
+    rsync -Phav dist/ $DESK_SDAGW_PROD_HOST:$DESK_SDAGW_PROD_PATH
+    open $DESK_SDAGW_PROD_URL
+}

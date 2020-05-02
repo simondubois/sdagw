@@ -6,6 +6,6 @@ Vue.use(VueI18n)
 export default new VueI18n({
     locale: 'fr',
     messages: {
-        //
+        fr: require('./fr.js').default,
     },
 })

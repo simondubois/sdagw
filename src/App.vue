@@ -1,22 +1,21 @@
 <template>
 
-    <div id="app">
+    <div class="d-flex flex-column h-100">
 
-        <div id="nav">
+        <bs-navbar>
+            <template slot="left" />
+        </bs-navbar>
 
-            <router-link to="/">
-                Home
-            </router-link>
-
-            |
-
-            <router-link to="/about">
-                About
-            </router-link>
-
-        </div>
-
-        <router-view />
+        <transition
+            mode="out-in"
+            name="fade"
+            appear
+        >
+            <router-view
+                class="flex-grow-1 overflow-auto py-4"
+                v-bind="[$route.params, $route.query]"
+            />
+        </transition>
 
     </div>
 
@@ -26,29 +25,21 @@
 
 <style lang="scss">
 
-    #app {
-        font-family: Avenir, Helvetica, Arial, sans-serif;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        text-align: center;
-        color: #2c3e50;
+    $fa-font-path: '../node_modules/@fortawesome/fontawesome-free/webfonts';
+
+    @import '../node_modules/@fortawesome/fontawesome-free/scss/fontawesome';
+    @import '../node_modules/@fortawesome/fontawesome-free/scss/solid';
+    @import '../node_modules/bootswatch/dist/journal/variables';
+    @import '../node_modules/bootstrap/scss/bootstrap';
+    @import '../node_modules/bootswatch/dist/journal/bootswatch';
+
+    .navbar-nav {
+        min-width: 0px;
     }
 
-    #nav {
-
-        padding: 30px;
-
-        a {
-
-            font-weight: bold;
-            color: #2c3e50;
-
-            &.router-link-exact-active {
-                color: #42b983;
-            }
-
-        }
-
+    .navbar-text {
+        padding-left: $navbar-nav-link-padding-x;
+        padding-right: $navbar-nav-link-padding-x;
     }
 
 </style>

@@ -5,18 +5,13 @@ Vue.use(VueRouter)
 
 const routes = [
     {
-        path: '/',
-        name: 'Home',
-        component: require('../views/Home.vue').default,
-    },
-    {
-        path: '/about',
-        name: 'About',
-        component: require('../views/About.vue').default,
+        path: '*',
+        redirect: '/',
     },
 ]
 
 const router = new VueRouter({
+    linkActiveClass: 'active',
     routes,
 })
 

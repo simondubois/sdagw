@@ -3,7 +3,19 @@
     <div class="d-flex flex-column h-100">
 
         <bs-navbar>
-            <template slot="left" />
+            <template slot="left">
+                <li class="nav-item text-nowrap">
+                    <router-link
+                        :to="{ name: 'figurine' }"
+                        class="nav-link"
+                    >
+                        <fontawesome-icon icon="figurine" />
+                        <span class="d-none d-lg-inline">
+                            {{ $t('figurine.index.title') }}
+                        </span>
+                    </router-link>
+                </li>
+            </template>
         </bs-navbar>
 
         <transition

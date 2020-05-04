@@ -5,8 +5,18 @@ Vue.use(VueRouter)
 
 const routes = [
     {
+        path: '/figurines',
+        name: 'figurine',
+        redirect: { name: 'figurine-index', params: { force: 'good' } },
+    },
+    {
+        path: '/figurines/:force',
+        name: 'figurine-index',
+        component: require('../views/FigurineIndex.vue').default,
+    },
+    {
         path: '*',
-        redirect: '/',
+        redirect: '/figurines',
     },
 ]
 

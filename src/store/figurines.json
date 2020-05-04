@@ -1,0 +1,389 @@
+{
+    "good": {
+        "arnor": {
+            "aragorn": {
+                "hero": true,
+                "fellowship": {
+                    "equipments": ["human-bow"],
+                    "stats": { "fi": 6, "sh": 3, "st": 4, "de": 5, "at": 3, "wo": 3, "co": 6, "mo": 6, "mi": 3, "wi": 3, "fa": 3 },
+                    "value": 175
+                },
+                "helms-deep": {
+                    "equipments": ["sword"],
+                    "stats": { "fi": 6, "sh": 0, "st": 4, "de": 5, "at": 3, "wo": 3, "co": 6, "mo": 6, "mi": 3, "wi": 3, "fa": 3 },
+                    "value": 175
+                }
+            }
+        },
+        "dwarves": {
+            "gimli": {
+                "fellowship": {
+                    "equipments": ["2hand-axe", "throwing-axe"],
+                    "stats": { "fi": 6, "sh": 4, "st": 4, "de": 8, "at": 2, "wo": 2, "co": 6, "mo": 5, "mi": 3, "wi": 2, "fa": 2 },
+                    "value": 80
+                },
+                "hero": true
+            }
+        },
+        "gondor": {
+            "boromir": {
+                "fellowship": {
+                    "equipments": ["horn", "shield"],
+                    "stats": { "fi": 6, "sh": 0, "st": 4, "de": 6, "at": 3, "wo": 3, "co": 3, "mo": 6, "mi": 6, "wi": 1, "fa": 0 },
+                    "value": 105
+                },
+                "hero": true
+            },
+            "faramir": {
+                "foot": {
+                    "equipments": ["human-bow"],
+                    "stats": { "fi": 5, "sh": 3, "st": 4, "de": 5, "at": 2, "wo": 2, "co": 5, "mo": 6, "mi": 3, "wi": 2, "fa": 2 },
+                    "value": 70
+                },
+                "hero": true
+            },
+            "minas-tirith": {
+                "bowman": {
+                    "equipments": ["human-bow"],
+                    "max": 4,
+                    "stats": { "fi": 3, "sh": 4, "st": 3, "de": 5, "at": 1, "wo": 1, "co": 3, "mo": 6 },
+                    "value": 7
+                },
+                "lancer": {
+                    "equipments": ["lance"],
+                    "max": 4,
+                    "stats": { "fi": 3, "sh": 0, "st": 3, "de": 6, "at": 1, "wo": 1, "co": 3, "mo": 6 },
+                    "value": 7
+                },
+                "swordsman": {
+                    "equipments": ["shield"],
+                    "max": 4,
+                    "stats": { "fi": 3, "sh": 0, "st": 3, "de": 6, "at": 1, "wo": 1, "co": 3, "mo": 6 },
+                    "value": 7
+                }
+            }
+        },
+        "last-alliance": {
+            "elf": {
+                "bowman": {
+                    "equipments": ["elf-bow"],
+                    "max": 4,
+                    "stats": { "fi": 6, "sh": 3, "st": 3, "de": 5, "at": 1, "wo": 1, "co": 5, "mo": 6 },
+                    "value": 10
+                },
+                "swordsman": {
+                    "equipments": ["sword"],
+                    "max": 4,
+                    "stats": { "fi": 6, "sh": 0, "st": 3, "de": 5, "at": 1, "wo": 1, "co": 5, "mo": 6 },
+                    "value": 9
+                }
+            },
+            "numenor": {
+                "swordsman": {
+                    "equipments": ["shield"],
+                    "max": 4,
+                    "stats": { "fi": 3, "sh": 0, "st": 3, "de": 4, "at": 1, "wo": 1, "co": 3, "mo": 6 },
+                    "value": 7
+                }
+            }
+        },
+        "rohan": {
+            "eomer": {
+                "hero": true,
+                "mounted": {
+                    "mount": "horse",
+                    "stats": { "fi": 5, "sh": 0, "st": 4, "de": 6, "at": 2, "wo": 2, "co": 5, "mo": 10, "mi": 3, "wi": 2, "fa": 2 },
+                    "value": 85
+                }
+            },
+            "rohirrim-rider": {
+                "axeman": {
+                    "equipments": ["shield"],
+                    "mount": "horse",
+                    "stats": { "fi": 3, "sh": 0, "st": 3, "de": 5, "at": 1, "wo": 1, "co": 3, "mo": 10 },
+                    "value": 13
+                },
+                "bowman": {
+                    "equipments": ["human-bow", "shield"],
+                    "mount": "horse",
+                    "max": 2,
+                    "stats": { "fi": 3, "sh": 4, "st": 3, "de": 5, "at": 1, "wo": 1, "co": 3, "mo": 10 },
+                    "value": 13
+                },
+                "javelinman": {
+                    "equipments": ["javelin", "shield"],
+                    "mount": "horse",
+                    "max": 2,
+                    "stats": { "fi": 3, "sh": 4, "st": 3, "de": 5, "at": 1, "wo": 1, "co": 3, "mo": 10 },
+                    "value": 13
+                },
+                "swordsman": {
+                    "equipments": ["shield"],
+                    "mount": "horse",
+                    "stats": { "fi": 3, "sh": 0, "st": 3, "de": 5, "at": 1, "wo": 1, "co": 3, "mo": 10 },
+                    "value": 13
+                }
+            },
+            "rohirrim-warrior": {
+                "axeman": {
+                    "equipments": ["shield"],
+                    "max": 2,
+                    "stats": { "fi": 3, "sh": 0, "st": 3, "de": 5, "at": 1, "wo": 1, "co": 3, "mo": 6 },
+                    "value": 7
+                },
+                "bowman": {
+                    "equipments": ["human-bow"],
+                    "max": 4,
+                    "stats": { "fi": 3, "sh": 4, "st": 3, "de": 4, "at": 1, "wo": 1, "co": 3, "mo": 6 },
+                    "value": 7
+                },
+                "javelinman": {
+                    "equipments": ["javelin", "shield"],
+                    "max": 4,
+                    "stats": { "fi": 3, "sh": 4, "st": 3, "de": 5, "at": 1, "wo": 1, "co": 3, "mo": 6 },
+                    "value": 7
+                },
+                "swordsman": {
+                    "equipments": ["shield"],
+                    "max": 2,
+                    "stats": { "fi": 3, "sh": 0, "st": 3, "de": 5, "at": 1, "wo": 1, "co": 3, "mo": 6 },
+                    "value": 7
+                }
+            }
+        },
+        "shire": {
+            "frodo": {
+                "fellowship": {
+                    "equipments": ["ring"],
+                    "stats": { "fi": 3, "sh": 0, "st": 3, "de": 6, "at": 1, "wo": 2, "co": 6, "mo": 4, "mi": 3, "wi": 3, "fa": 3 },
+                    "value": 105
+                },
+                "hero": true
+            },
+            "gandalf": {
+                "hero": true,
+                "khazad-dum": {
+                    "equipments": ["powerstick"],
+                    "stats": { "fi": 5, "sh": 0, "st": 4, "de": 5, "at": 1, "wo": 3, "co": 7, "mo": 6, "mi": 3, "wi": 6, "fa": 3 },
+                    "value": 150
+                },
+                "spells": ["blindinglight", "terrifyingaura", "strengthenwill", "immobilse", "command", "sorcerousblast"]
+            },
+            "merry": {
+                "fellowship": {
+                    "stats": { "fi": 3, "sh": 0, "st": 2, "de": 3, "at": 1, "wo": 1, "co": 4, "mo": 4, "mi": 0, "wi": 0, "fa": 2 },
+                    "value": 10
+                },
+                "hero": true
+            },
+            "pippin": {
+                "fellowship": {
+                    "stats": { "fi": 3, "sh": 0, "st": 2, "de": 3, "at": 1, "wo": 1, "co": 4, "mo": 4, "mi": 0, "wi": 0, "fa": 2 },
+                    "value": 10
+                },
+                "hero": true
+            },
+            "sam": {
+                "fellowship": {
+                    "stats": { "fi": 3, "sh": 0, "st": 2, "de": 3, "at": 1, "wo": 2, "co": 5, "mo": 4, "mi": 1, "wi": 1, "fa": 2 },
+                    "value": 30
+                },
+                "hero": true
+            }
+        },
+        "silvan": {
+            "legolas": {
+                "fellowship": {
+                    "equipments": ["elf-bow"],
+                    "stats": { "fi": 6, "sh": 3, "st": 4, "de": 4, "at": 2, "wo": 2, "co": 6, "mo": 6, "mi": 3, "wi": 2, "fa": 2 },
+                    "value": 85
+                },
+                "hero": true
+            }
+        }
+    },
+    "evil": {
+        "isengard": {
+            "lurz": {
+                "foot": {
+                    "equipments": ["orc-bow", "shield"],
+                    "stats": { "fi": 5, "sh": 4, "st": 4, "de": 6, "at": 2, "wo": 2, "co": 4, "mo": 6, "mi": 3, "wi": 1, "fa": 1 },
+                    "value": 65
+                },
+                "hero": true
+            },
+            "saruman": {
+                "foot": {
+                    "equipments": ["palantir", "powerstick"],
+                    "stats": { "fi": 5, "sh": 0, "st": 4, "de": 5, "at": 1, "wo": 3, "co": 7, "mo": 6, "mi": 3, "wi": 6, "fa": 3 },
+                    "value": 150
+                },
+                "hero": true,
+                "spells": ["terrifyingaura", "immobilse", "command", "sorcerousblast"]
+            },
+            "ugluk": {
+                "foot": {
+                    "stats": { "fi": 5, "sh": 0, "st": 4, "de": 5, "at": 2, "wo": 2, "co": 4, "mo": 6, "mi": 3, "wi": 1, "fa": 1 },
+                    "value": 55
+                },
+                "hero": true
+            },
+            "uruk-hai-captain": {
+                "foot": {
+                    "equipments": ["shield"],
+                    "stats": { "fi": 5, "sh": 0, "st": 4, "de": 6, "at": 2, "wo": 2, "co": 4, "mo": 6, "mi": 2, "wi": 1, "fa": 1 },
+                    "value": 55
+                }
+            },
+            "uruk-hai-warrior": {
+                "bowman": {
+                    "equipments": ["orc-bow"],
+                    "max": 4,
+                    "stats": { "fi": 4, "sh": 4, "st": 4, "de": 5, "at": 1, "wo": 1, "co": 3, "mo": 6 },
+                    "value": 11
+                },
+                "pikeman": {
+                    "equipments": ["pike"],
+                    "stats": { "fi": 4, "sh": 0, "st": 4, "de": 5, "at": 1, "wo": 1, "co": 3, "mo": 6 },
+                    "value": 11
+                },
+                "swordsman": {
+                    "equipments": ["shield"],
+                    "stats": { "fi": 4, "sh": 0, "st": 4, "de": 6, "at": 1, "wo": 1, "co": 3, "mo": 6 },
+                    "value": 11
+                }
+            }
+        },
+        "mordor": {
+            "grishnákh": {
+                "foot": {
+                    "stats": { "fi": 4, "sh": 0, "st": 4, "de": 5, "at": 2, "wo": 2, "co": 3, "mo": 6, "mi": 3, "wi": 1, "fa": 1 },
+                    "value": 45
+                },
+                "hero": true
+            },
+            "orc-captain": {
+                "foot": {
+                    "equipments": ["shield"],
+                    "stats": { "fi": 4, "sh": 0, "st": 4, "de": 5, "at": 2, "wo": 2, "co": 3, "mo": 6, "mi": 2, "wi": 1, "fa": 1 },
+                    "value": 45
+                }
+            },
+            "orc-warrior": {
+                "bowman": {
+                    "equipments": ["orc-bow"],
+                    "max": 4,
+                    "stats": { "fi": 3, "sh": 5, "st": 3, "de": 4, "at": 1, "wo": 1, "co": 2, "mo": 6 },
+                    "value": 6
+                },
+                "lancer": {
+                    "equipments": ["lance"],
+                    "max": 4,
+                    "stats": { "fi": 3, "sh": 0, "st": 3, "de": 4, "at": 1, "wo": 1, "co": 2, "mo": 6 },
+                    "value": 6
+                },
+                "swordsman": {
+                    "equipments": ["shield"],
+                    "max": 4,
+                    "stats": { "fi": 3, "sh": 0, "st": 3, "de": 5, "at": 1, "wo": 1, "co": 2, "mo": 6 },
+                    "value": 6
+                }
+            },
+            "ringwraith": {
+                "foot1": {
+                    "stats": { "fi": 5, "sh": 0, "st": 4, "de": 8, "at": 1, "wo": 1, "co": 6, "mo": 6, "mi": 0, "wi": 7, "fa": 0 },
+                    "value": 75
+                },
+                "foot2": {
+                    "stats": { "fi": 5, "sh": 0, "st": 4, "de": 8, "at": 1, "wo": 1, "co": 6, "mo": 6, "mi": 0, "wi": 7, "fa": 0 },
+                    "value": 75
+                },
+                "foot3": {
+                    "stats": { "fi": 5, "sh": 0, "st": 4, "de": 8, "at": 1, "wo": 1, "co": 6, "mo": 6, "mi": 0, "wi": 7, "fa": 0 },
+                    "value": 75
+                },
+                "foot4": {
+                    "stats": { "fi": 5, "sh": 0, "st": 4, "de": 8, "at": 1, "wo": 1, "co": 6, "mo": 6, "mi": 0, "wi": 7, "fa": 0 },
+                    "value": 75
+                },
+                "foot5": {
+                    "stats": { "fi": 5, "sh": 0, "st": 4, "de": 8, "at": 1, "wo": 1, "co": 6, "mo": 6, "mi": 0, "wi": 7, "fa": 0 },
+                    "value": 75
+                },
+                "foot6": {
+                    "stats": { "fi": 5, "sh": 0, "st": 4, "de": 8, "at": 1, "wo": 1, "co": 6, "mo": 6, "mi": 0, "wi": 7, "fa": 0 },
+                    "value": 75
+                },
+                "foot7": {
+                    "stats": { "fi": 5, "sh": 0, "st": 4, "de": 8, "at": 1, "wo": 1, "co": 6, "mo": 6, "mi": 0, "wi": 7, "fa": 0 },
+                    "value": 75
+                },
+                "foot8": {
+                    "stats": { "fi": 5, "sh": 0, "st": 4, "de": 8, "at": 1, "wo": 1, "co": 6, "mo": 6, "mi": 0, "wi": 7, "fa": 0 },
+                    "value": 75
+                },
+                "spells": ["draincourage", "immobilse", "command", "swapwill"],
+                "terrifying": true
+            },
+            "witch-king": {
+                "foot": {
+                    "stats": { "fi": 5, "sh": 0, "st": 4, "de": 8, "at": 1, "wo": 1, "co": 6, "mo": 6, "mi": 0, "wi": 10, "fa": 0 },
+                    "value": 95
+                },
+                "hero": true,
+                "spells": ["draincourage", "immobilse", "command", "swapwill"],
+                "terrifying": true
+            }
+        },
+        "moria": {
+            "goblin-captain": {
+                "bowman": {
+                    "equipments": ["orc-bow"],
+                    "stats": { "fi": 3, "sh": 5, "st": 4, "de": 5, "at": 2, "wo": 2, "co": 3, "mo": 5, "mi": 2, "wi": 1, "fa": 1 },
+                    "value": 45
+                },
+                "swordsman": {
+                    "stats": { "fi": 3, "sh": 0, "st": 4, "de": 5, "at": 2, "wo": 2, "co": 3, "mo": 5, "mi": 2, "wi": 1, "fa": 1 },
+                    "value": 40
+                }
+            },
+            "goblin-warrior": {
+                "bowman": {
+                    "equipments": ["orc-bow"],
+                    "max": 8,
+                    "stats": { "fi": 2, "sh": 5, "st": 3, "de": 4, "at": 1, "wo": 1, "co": 2, "mo": 5 },
+                    "value": 5
+                },
+                "lancer": {
+                    "equipments": ["lance"],
+                    "max": 8,
+                    "stats": { "fi": 2, "sh": 0, "st": 3, "de": 4, "at": 1, "wo": 1, "co": 2, "mo": 5 },
+                    "value": 5
+                },
+                "swordsman": {
+                    "equipments": ["shield"],
+                    "max": 8,
+                    "stats": { "fi": 2, "sh": 0, "st": 3, "de": 5, "at": 1, "wo": 1, "co": 2, "mo": 5 },
+                    "value": 5
+                }
+            },
+            "troll": {
+                "hammer": {
+                    "max": 1,
+                    "stats": { "fi": 6, "sh": 0, "st": 6, "de": 6, "at": 3, "wo": 3, "co": 4, "mo": 6 },
+                    "value": 70
+                }
+            },
+            "watcher": {
+                "tentacle": {
+                    "max": 8,
+                    "stats": { "fi": 4, "sh": 0, "st": 2, "de": 5, "at": 1, "wo": 1, "co": 8, "mo": 6 },
+                    "value": 7
+                }
+            }
+        }
+    },
+    "mounts": {
+        "horse": { "fi": 0, "sh": 0, "st": 3, "de": 4, "at": 0, "wo": 1, "co": 3, "mo": 10 }
+    }
+}

@@ -16,6 +16,12 @@ const routes = [
         meta: { stickyHeader: true },
     },
     {
+        path: '/sceneries',
+        name: 'scenery-index',
+        component: require('../views/SceneryIndex.vue').default,
+        meta: { stickyHeader: true },
+    },
+    {
         path: '*',
         redirect: '/figurines',
     },

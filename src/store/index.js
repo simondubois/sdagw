@@ -15,5 +15,9 @@ export default new Vuex.Store({
                 },
             },
         },
+        scenery: {
+            namespaced: true,
+            ...require('./scenery.js').default,
+        },
     },
 })

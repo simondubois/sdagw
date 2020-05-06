@@ -116,4 +116,28 @@ export default {
         good: 'Le Bien',
     },
 
+    scenery: {
+        index: {
+            title: 'Décors',
+        },
+        names: {
+            'alert-fire': "Feu d'alarme",
+            barricade: 'Barricades',
+            bridge: 'Pont',
+            camp: 'Campement',
+            ford: 'Gué',
+            hill: 'Colline',
+            lake: 'Lac',
+            'low-wall': 'Murets et clôtures',
+            outcrop: 'Affleurement rocheux',
+            river: 'Rivière',
+            'rohirrim-house': 'Demeures Rohirrim',
+            'ruined-arch': 'Vestiges du passé',
+            'ruined-foundations': 'Coins de ruines',
+            sewer: 'Égouts',
+            'standing-stone': 'Pierre levée',
+            tree: 'Arbres',
+        },
+    },
+
 }

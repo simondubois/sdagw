@@ -1,0 +1,66 @@
+[
+    {
+        "id": "low-wall",
+        "rules": ["hideout", "jumpable"]
+    },
+    {
+        "id": "hill",
+        "rules": ["difficult", "hideout"]
+    },
+    {
+        "id": "ruined-foundations",
+        "rules": ["difficult", "hideout", "jumpable"]
+    },
+    {
+        "id": "tree",
+        "rules": ["difficult"]
+    },
+    {
+        "id": "alert-fire",
+        "rules": ["difficult", "hideout", "jumpable"]
+    },
+    {
+        "id": "rohirrim-house",
+        "rules": ["difficult", "hideout", "jumpable"]
+    },
+    {
+        "id": "standing-stone",
+        "rules": ["hideout"]
+    },
+    {
+        "id": "ruined-arch",
+        "rules": ["climbable", "hideout"]
+    },
+    {
+        "id": "barricade",
+        "rules": ["hideout", "jumpable"]
+    },
+    {
+        "id": "river",
+        "rules": []
+    },
+    {
+        "id": "ford",
+        "rules": ["difficult"]
+    },
+    {
+        "id": "bridge",
+        "rules": ["difficult", "hideout"]
+    },
+    {
+        "id": "outcrop",
+        "rules": ["climbable", "difficult", "hideout"]
+    },
+    {
+        "id": "camp",
+        "rules": ["difficult", "hideout", "jumpable"]
+    },
+    {
+        "id": "lake",
+        "rules": ["difficult"]
+    },
+    {
+        "id": "sewer",
+        "rules": ["difficult", "jumpable"]
+    }
+]

@@ -5,6 +5,7 @@
         <bs-navbar>
 
             <template slot="left">
+
                 <li class="nav-item text-nowrap">
                     <router-link
                         :to="{ name: 'figurine' }"
@@ -16,6 +17,19 @@
                         </span>
                     </router-link>
                 </li>
+
+                <li class="nav-item text-nowrap">
+                    <router-link
+                        :to="{ name: 'scenery-index' }"
+                        class="nav-link"
+                    >
+                        <fontawesome-icon icon="scenery" />
+                        <span class="d-none d-lg-inline">
+                            {{ $t('scenery.index.title') }}
+                        </span>
+                    </router-link>
+                </li>
+
             </template>
 
             <template slot="right">

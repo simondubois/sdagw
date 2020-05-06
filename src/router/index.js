@@ -13,6 +13,7 @@ const routes = [
         path: '/figurines/:force',
         name: 'figurine-index',
         component: require('../views/FigurineIndex.vue').default,
+        meta: { stickyHeader: true },
     },
     {
         path: '*',

@@ -3,6 +3,7 @@
     <div class="d-flex flex-column h-100">
 
         <bs-navbar>
+
             <template slot="left">
                 <li class="nav-item text-nowrap">
                     <router-link
@@ -16,6 +17,31 @@
                     </router-link>
                 </li>
             </template>
+
+            <template slot="right">
+
+                <li class="nav-item text-nowrap">
+                    <span class="navbar-text text-success">
+                        <fontawesome-icon
+                            class="d-none d-sm-inline"
+                            icon="good"
+                        />
+                        {{ goodValue }}
+                    </span>
+                </li>
+
+                <li class="nav-item text-nowrap">
+                    <span class="navbar-text text-danger">
+                        <fontawesome-icon
+                            class="d-none d-sm-inline"
+                            icon="evil"
+                        />
+                        {{ evilValue }}
+                    </span>
+                </li>
+
+            </template>
+
         </bs-navbar>
 
         <transition
@@ -32,6 +58,19 @@
     </div>
 
 </template>
+
+
+
+<script>
+
+    export default {
+        computed: {
+            evilValue: vue => vue.$store.getters['figurine/selectionValue']('evil'),
+            goodValue: vue => vue.$store.getters['figurine/selectionValue']('good'),
+        },
+    }
+
+</script>
 
 
 

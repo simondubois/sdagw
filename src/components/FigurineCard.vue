@@ -13,7 +13,7 @@
                 >
             </div>
 
-            <div class="col-12 col-sm-10 d-flex">
+            <div class="col-11 col-sm-9 d-flex">
                 <div class="card-body">
 
                     <div class="d-flex align-items-center">
@@ -59,6 +59,68 @@
                 </div>
             </div>
 
+            <div
+                v-if="figurine.id"
+                class="col-1 text-center"
+            >
+
+                <div
+                    v-if="figurine.max === 1"
+                    class="custom-control custom-switch"
+                >
+
+                    <input
+                        :id="'figurine-figurine-selector-' + figurine.id"
+                        v-model="selected"
+                        class="custom-control-input"
+                        type="checkbox"
+                    >
+
+                    <label
+                        :for="'figurine-figurine-selector-' + figurine.id"
+                        class="custom-control-label"
+                    />
+
+                </div>
+
+                <div
+                    v-else
+                    class="btn-group-sm btn-group-vertical"
+                >
+
+                    <button
+                        :class="'btn-' + secondaryContext"
+                        :disabled="selected === figurine.max"
+                        class="btn"
+                        type="button"
+                        @click="++selected"
+                    >
+                        <fontawesome-icon icon="more" />
+                    </button>
+
+                    <button
+                        type="button"
+                        :class="'btn-' + secondaryContext"
+                        class="btn"
+                        disabled
+                    >
+                        {{ selected }}
+                    </button>
+
+                    <button
+                        :class="'btn-' + secondaryContext"
+                        :disabled="selected === 0"
+                        class="btn"
+                        type="button"
+                        @click="--selected"
+                    >
+                        <fontawesome-icon icon="less" />
+                    </button>
+
+                </div>
+
+            </div>
+
         </div>
     </div>
 
@@ -76,8 +138,17 @@
             },
         },
         computed: {
-            primaryContext: vue => vue.figurine.context,
-            secondaryContext: vue => 'light',
+            primaryContext: vue => vue.selected ? 'light' : vue.figurine.context,
+            secondaryContext: vue => vue.selected ? vue.figurine.context : 'light',
+            selected: {
+                get: vue => vue.$store.getters['figurine/selection/quantity'](vue.figurine.id),
+                set (value) {
+                    this.$store.dispatch('figurine/select', {
+                        id: this.figurine.id,
+                        quantity: parseInt(+value),
+                    })
+                },
+            },
         },
     }
 

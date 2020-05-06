@@ -8,6 +8,12 @@ export default new Vuex.Store({
         figurine: {
             namespaced: true,
             ...require('./figurine.js').default,
+            modules: {
+                selection: {
+                    namespaced: true,
+                    ...require('./selection.js').default('figurine|'),
+                },
+            },
         },
     },
 })

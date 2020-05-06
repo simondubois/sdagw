@@ -48,12 +48,27 @@ export default {
             ([id, stats]) => ({ id, img: require('../assets/figurines/mount|' + id + '.png'), stats }),
         ),
         regions: (state, getters) => force => [...new Set(getters[force].map(figurine => figurine.region))],
+        selected: (state, getters) => getters.all
+            .map(figurine => ({ ...figurine, quantity: getters['selection/quantity'](figurine.id) }))
+            .filter(figurine => figurine.quantity),
+        selectionValue: (state, getters) => force =>
+            getters.selected
+                .filter(figurine => figurine.force === force)
+                .reduce((total, figurine) => total + figurine.value * figurine.quantity, 0),
     },
 
     mutations: {
     },
 
     actions: {
+        select: ({ dispatch, getters }, { id, quantity }) => Promise
+            .all(
+                getters
+                    .inArmy(getters.find(id).army)
+                    .filter(figurine => figurine.hero && quantity)
+                    .map(figurine => dispatch('selection/update', { id: figurine.id, quantity: 0 })),
+            )
+            .then(() => dispatch('selection/update', { id, quantity })),
     },
 
 }

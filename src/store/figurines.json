@@ -244,11 +244,13 @@
                 },
                 "pikeman": {
                     "equipments": ["pike"],
+                    "max": 10,
                     "stats": { "fi": 4, "sh": 0, "st": 4, "de": 5, "at": 1, "wo": 1, "co": 3, "mo": 6 },
                     "value": 11
                 },
                 "swordsman": {
                     "equipments": ["shield"],
+                    "max": 10,
                     "stats": { "fi": 4, "sh": 0, "st": 4, "de": 6, "at": 1, "wo": 1, "co": 3, "mo": 6 },
                     "value": 11
                 }

@@ -18,6 +18,12 @@ export default new Vuex.Store({
         scenery: {
             namespaced: true,
             ...require('./scenery.js').default,
+            modules: {
+                selection: {
+                    namespaced: true,
+                    ...require('./selection.js').default('scenery|'),
+                },
+            },
         },
     },
 })

@@ -54,6 +54,16 @@
                     </span>
                 </li>
 
+                <li class="nav-item text-nowrap">
+                    <span class="navbar-text text-info">
+                        <fontawesome-icon
+                            class="d-none d-sm-inline"
+                            icon="scenery"
+                        />
+                        {{ sceneryCount }}
+                    </span>
+                </li>
+
             </template>
 
         </bs-navbar>
@@ -81,6 +91,7 @@
         computed: {
             evilValue: vue => vue.$store.getters['figurine/selectionValue']('evil'),
             goodValue: vue => vue.$store.getters['figurine/selectionValue']('good'),
+            sceneryCount: vue => vue.$store.getters['scenery/selected'].length,
         },
     }
 

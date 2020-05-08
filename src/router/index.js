@@ -5,6 +5,12 @@ Vue.use(VueRouter)
 
 const routes = [
     {
+        path: '/scenarios',
+        name: 'scenario-index',
+        component: require('../views/ScenarioIndex.vue').default,
+        meta: { stickyHeader: true },
+    },
+    {
         path: '/figurines',
         name: 'figurine',
         redirect: { name: 'figurine-index', params: { force: 'good' } },
@@ -23,7 +29,7 @@ const routes = [
     },
     {
         path: '*',
-        redirect: '/figurines',
+        redirect: '/scenarios',
     },
 ]
 

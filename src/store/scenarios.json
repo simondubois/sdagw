@@ -1,0 +1,324 @@
+[
+    {
+        "id": "1",
+        "figurines": {
+            "arnor|aragorn|fellowship": 1,
+            "moria|goblin-warrior|bowman": 4,
+            "moria|goblin-warrior|lancer": 4,
+            "moria|goblin-warrior|swordsman": 4
+        }
+    },
+    {
+        "id": "2",
+        "figurines": {
+            "last-alliance|elf|bowman": 4,
+            "last-alliance|elf|swordsman": 4,
+            "last-alliance|numenor|swordsman": 4,
+            "moria|goblin-warrior|bowman": 4,
+            "moria|goblin-warrior|lancer": 4,
+            "moria|goblin-warrior|swordsman": 4
+        }
+    },
+    {
+        "id": "3",
+        "figurines": {
+            "arnor|aragorn|helms-deep": 1,
+            "mordor|ringwraith|foot1": 1,
+            "mordor|ringwraith|foot2": 1,
+            "mordor|ringwraith|foot3": 1,
+            "mordor|ringwraith|foot4": 1,
+            "mordor|ringwraith|foot5": 1,
+            "shire|frodo|fellowship": 1
+        }
+    },
+    {
+        "id": "4",
+        "figurines": {
+            "arnor|aragorn|fellowship": 1,
+            "isengard|lurz|foot": 1,
+            "moria|goblin-warrior|bowman": 3,
+            "moria|goblin-warrior|lancer": 3,
+            "moria|goblin-warrior|swordsman": 3,
+            "shire|frodo|fellowship": 1
+        },
+        "sceneries": [
+            "low-wall",
+            "hill"
+        ]
+    },
+    {
+        "id": "5",
+        "figurines": {
+            "isengard|uruk-hai-warrior|pikeman": 5,
+            "isengard|uruk-hai-warrior|swordsman": 5,
+            "last-alliance|elf|bowman": 4,
+            "last-alliance|elf|swordsman": 4
+        },
+        "sceneries": [
+            "low-wall",
+            "hill"
+        ]
+    },
+    {
+        "id": "6",
+        "figurines": {
+            "arnor|aragorn|helms-deep": 1,
+            "isengard|uruk-hai-warrior|swordsman": 5
+        },
+        "sceneries": [
+            "low-wall",
+            "ruined-foundations"
+        ]
+    },
+    {
+        "id": "7",
+        "figurines": {
+            "isengard|uruk-hai-warrior|bowman": 4,
+            "isengard|uruk-hai-warrior|pikeman": 5,
+            "isengard|uruk-hai-warrior|swordsman": 5,
+            "rohan|rohirrim-warrior|axeman": 2,
+            "rohan|rohirrim-warrior|bowman": 4,
+            "rohan|rohirrim-warrior|javelinman": 4,
+            "rohan|rohirrim-warrior|swordsman": 2
+        },
+        "sceneries": [
+            "low-wall",
+            "hill",
+            "ruined-foundations"
+        ]
+    },
+    {
+        "id": "8",
+        "figurines": {
+            "moria|goblin-captain|bowman": 1,
+            "moria|goblin-warrior|bowman": 3,
+            "moria|goblin-warrior|swordsman": 3,
+            "shire|frodo|fellowship": 1,
+            "silvan|legolas|fellowship": 1
+        },
+        "sceneries": [
+            "tree"
+        ]
+    },
+    {
+        "id": "9",
+        "figurines": {
+            "arnor|aragorn|helms-deep": 1,
+            "dwarves|gimli|fellowship": 1,
+            "isengard|uruk-hai-captain|foot": 1,
+            "isengard|uruk-hai-warrior|pikeman": 10,
+            "isengard|uruk-hai-warrior|swordsman": 10,
+            "rohan|rohirrim-warrior|axeman": 2,
+            "rohan|rohirrim-warrior|bowman": 4,
+            "rohan|rohirrim-warrior|javelinman": 4,
+            "rohan|rohirrim-warrior|swordsman": 2,
+            "silvan|legolas|fellowship": 1
+        },
+        "sceneries": [
+            "low-wall",
+            "alert-fire",
+            "rohirrim-house"
+        ]
+    },
+    {
+        "id": "11A",
+        "figurines": {
+            "arnor|aragorn|fellowship": 1,
+            "dwarves|gimli|fellowship": 1,
+            "isengard|uruk-hai-captain|foot": 1,
+            "isengard|uruk-hai-warrior|pikeman": 8,
+            "isengard|uruk-hai-warrior|swordsman": 8,
+            "silvan|legolas|fellowship": 1
+        },
+        "sceneries": [
+            "hill",
+            "tree"
+        ]
+    },
+    {
+        "id": "11B",
+        "figurines": {
+            "arnor|aragorn|fellowship": 1,
+            "dwarves|gimli|fellowship": 1,
+            "gondor|boromir|fellowship": 1,
+            "isengard|lurz|foot": 1,
+            "isengard|uruk-hai-warrior|pikeman": 6,
+            "isengard|uruk-hai-warrior|swordsman": 6,
+            "shire|merry|fellowship": 1,
+            "shire|pippin|fellowship": 1,
+            "silvan|legolas|fellowship": 1
+        },
+        "sceneries": [
+            "tree",
+            "standing-stone"
+        ]
+    },
+    {
+        "id": "12",
+        "figurines": {
+            "mordor|ringwraith|foot1": 1,
+            "mordor|ringwraith|foot2": 1,
+            "mordor|ringwraith|foot3": 1,
+            "mordor|ringwraith|foot4": 1,
+            "mordor|ringwraith|foot5": 1,
+            "mordor|witch-king|foot": 1,
+            "shire|gandalf|khazad-dum": 1
+        },
+        "sceneries": [
+            "hill",
+            "tree",
+            "standing-stone",
+            "ruined-arch"
+        ]
+    },
+    {
+        "id": "14",
+        "figurines": {
+            "isengard|uruk-hai-captain|foot": 1,
+            "isengard|uruk-hai-warrior|swordsman": 10,
+            "rohan|rohirrim-rider|axeman": 1,
+            "rohan|rohirrim-rider|bowman": 2,
+            "rohan|rohirrim-rider|javelinman": 2,
+            "rohan|rohirrim-rider|swordsman": 1,
+            "rohan|rohirrim-warrior|axeman": 2,
+            "rohan|rohirrim-warrior|javelinman": 4,
+            "rohan|rohirrim-warrior|swordsman": 2
+        },
+        "sceneries": [
+            "low-wall",
+            "tree",
+            "rohirrim-house",
+            "river",
+            "ford"
+        ]
+    },
+    {
+        "id": "15",
+        "figurines": {
+            "arnor|aragorn|helms-deep": 1,
+            "dwarves|gimli|fellowship": 1,
+            "gondor|boromir|fellowship": 1,
+            "isengard|lurz|foot": 1,
+            "isengard|saruman|foot": 1,
+            "isengard|ugluk|foot": 1,
+            "isengard|uruk-hai-captain|foot": 1,
+            "isengard|uruk-hai-warrior|pikeman": 10,
+            "isengard|uruk-hai-warrior|swordsman": 10,
+            "moria|goblin-warrior|bowman": 4,
+            "moria|goblin-warrior|lancer": 4,
+            "moria|goblin-warrior|swordsman": 4,
+            "shire|frodo|fellowship": 1,
+            "shire|gandalf|khazad-dum": 1,
+            "shire|merry|fellowship": 1,
+            "shire|pippin|fellowship": 1,
+            "shire|sam|fellowship": 1,
+            "silvan|legolas|fellowship": 1
+        },
+        "sceneries": [
+            "low-wall",
+            "hill",
+            "ruined-foundations",
+            "ruined-arch",
+            "river",
+            "ford",
+            "bridge",
+            "outcrop"
+        ]
+    },
+    {
+        "id": "18",
+        "figurines": {
+            "isengard|ugluk|foot": 1,
+            "isengard|uruk-hai-warrior|swordsman": 8,
+            "mordor|grishnákh|foot": 1,
+            "mordor|orc-warrior|lancer": 4,
+            "mordor|orc-warrior|swordsman": 4,
+            "rohan|eomer|mounted": 1,
+            "rohan|rohirrim-rider|axeman": 1,
+            "rohan|rohirrim-rider|bowman": 2,
+            "rohan|rohirrim-rider|javelinman": 2,
+            "rohan|rohirrim-rider|swordsman": 1,
+            "rohan|rohirrim-warrior|axeman": 2,
+            "rohan|rohirrim-warrior|bowman": 4,
+            "rohan|rohirrim-warrior|javelinman": 4,
+            "rohan|rohirrim-warrior|swordsman": 2,
+            "shire|merry|fellowship": 1,
+            "shire|pippin|fellowship": 1
+        },
+        "sceneries": [
+            "tree",
+            "camp"
+        ]
+    },
+    {
+        "id": "19",
+        "figurines": {
+            "arnor|aragorn|fellowship": 1,
+            "dwarves|gimli|fellowship": 1,
+            "gondor|boromir|fellowship": 1,
+            "moria|watcher|tentacle": 8,
+            "shire|frodo|fellowship": 1,
+            "shire|gandalf|khazad-dum": 1,
+            "shire|merry|fellowship": 1,
+            "shire|pippin|fellowship": 1,
+            "shire|sam|fellowship": 1,
+            "silvan|legolas|fellowship": 1
+        },
+        "sceneries": [
+            "lake",
+            "ruined-arch"
+        ]
+    },
+    {
+        "id": "20",
+        "figurines": {
+            "arnor|aragorn|helms-deep": 1,
+            "dwarves|gimli|fellowship": 1,
+            "gondor|boromir|fellowship": 1,
+            "moria|goblin-captain|bowman": 1,
+            "moria|goblin-warrior|bowman": 8,
+            "moria|goblin-warrior|lancer": 8,
+            "moria|goblin-warrior|swordsman": 8,
+            "shire|frodo|fellowship": 1,
+            "shire|gandalf|khazad-dum": 1,
+            "shire|merry|fellowship": 1,
+            "shire|pippin|fellowship": 1,
+            "shire|sam|fellowship": 1,
+            "silvan|legolas|fellowship": 1
+        },
+        "sceneries": []
+    },
+    {
+        "id": "21",
+        "figurines": {
+            "arnor|aragorn|helms-deep": 1,
+            "dwarves|gimli|fellowship": 1,
+            "gondor|boromir|fellowship": 1,
+            "moria|goblin-captain|bowman": 1,
+            "moria|goblin-warrior|bowman": 8,
+            "moria|goblin-warrior|lancer": 8,
+            "moria|goblin-warrior|swordsman": 8,
+            "moria|troll|hammer": 1,
+            "shire|frodo|fellowship": 1,
+            "shire|gandalf|khazad-dum": 1,
+            "shire|merry|fellowship": 1,
+            "shire|pippin|fellowship": 1,
+            "shire|sam|fellowship": 1,
+            "silvan|legolas|fellowship": 1
+        },
+        "sceneries": []
+    },
+    {
+        "id": "25",
+        "figurines": {
+            "mordor|orc-warrior|bowman": 4,
+            "mordor|orc-warrior|lancer": 4,
+            "mordor|orc-warrior|swordsman": 4,
+            "gondor|minas-tirith|lancer": 4,
+            "gondor|minas-tirith|swordsman": 2,
+            "shire|frodo|fellowship": 1,
+            "shire|sam|fellowship": 1
+        },
+        "sceneries": ["sewer"]
+    }
+]

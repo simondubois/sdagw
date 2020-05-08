@@ -25,5 +25,9 @@ export default new Vuex.Store({
                 },
             },
         },
+        scenario: {
+            namespaced: true,
+            ...require('./scenario.js').default,
+        },
     },
 })

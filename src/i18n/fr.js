@@ -116,6 +116,34 @@ export default {
         good: 'Le Bien',
     },
 
+    scenario: {
+        index: {
+            title: 'Scenarios',
+        },
+        names: {
+            1: "L'embuscade des Gobelins",
+            2: "L'ultime alliance",
+            3: "L'attaque des Nazgul",
+            4: "La traque de l'Uruk-Haï",
+            5: "L'attaque des Elfes",
+            6: 'La défense des ruines',
+            7: 'Repoussez les maraudeurs !',
+            8: 'Raid sur la Lothlorien',
+            9: 'Brûlez le village!',
+            '11A': 'Embuscade à Amon Hen: À la rescousse !',
+            '11B': 'Embuscade à Amon Hen: Capturez les semi-hommes !',
+            12: 'Joute de volonté',
+            14: 'Le passage du gué',
+            15: 'La trouée du Rohan',
+            17: 'Un voleur dans la nuit',
+            18: 'La colère du Rohan',
+            19: "Le guetteur de l'eau",
+            20: 'Perdus dans le noir',
+            21: 'Le Tombeau de Balïn',
+            25: "La fuite d'Osgiliath",
+        },
+    },
+
     scenery: {
         index: {
             title: 'Décors',

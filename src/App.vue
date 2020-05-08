@@ -8,6 +8,18 @@
 
                 <li class="nav-item text-nowrap">
                     <router-link
+                        :to="{ name: 'scenario-index' }"
+                        class="nav-link"
+                    >
+                        <fontawesome-icon icon="scenario" />
+                        <span class="d-none d-lg-inline">
+                            {{ $t('scenario.index.title') }}
+                        </span>
+                    </router-link>
+                </li>
+
+                <li class="nav-item text-nowrap">
+                    <router-link
                         :to="{ name: 'figurine' }"
                         class="nav-link"
                     >

@@ -15,6 +15,10 @@ export default new Vuex.Store({
                 },
             },
         },
+        rule: {
+            namespaced: true,
+            ...require('./rule.js').default,
+        },
         scenery: {
             namespaced: true,
             ...require('./scenery.js').default,

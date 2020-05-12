@@ -42,6 +42,21 @@
                     </router-link>
                 </li>
 
+                <li
+                    v-if="evilValue && goodValue"
+                    class="nav-item text-nowrap"
+                >
+                    <router-link
+                        :to="{ name: 'rule' }"
+                        class="nav-link"
+                    >
+                        <fontawesome-icon icon="rule" />
+                        <span class="d-none d-lg-inline">
+                            {{ $t('rule.index.title') }}
+                        </span>
+                    </router-link>
+                </li>
+
             </template>
 
             <template slot="right">

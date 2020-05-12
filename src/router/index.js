@@ -28,6 +28,16 @@ const routes = [
         meta: { stickyHeader: true },
     },
     {
+        path: '/rules',
+        name: 'rule',
+        redirect: { name: 'rule-index', params: { phase: 'all' } },
+    },
+    {
+        path: '/rules/:phase',
+        name: 'rule-index',
+        component: require('../views/RuleIndex.vue').default,
+    },
+    {
         path: '*',
         redirect: '/scenarios',
     },

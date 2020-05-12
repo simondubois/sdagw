@@ -1,6 +1,9 @@
 <template>
 
-    <div class="card border-0 text-info">
+    <div
+        :class="{ selected }"
+        class="card border-0"
+    >
         <div class="row no-gutters align-items-center">
 
             <div class="col-4 offset-4 offset-lg-0">
@@ -14,9 +17,27 @@
                 <div class="card-body">
 
                     <div class="h2 card-title d-flex text-truncate">
+
                         <div class="flex-fill">
                             {{ $t('scenario.names.' + scenario.id) }}
                         </div>
+
+                        <div class="custom-control custom-switch">
+
+                            <input
+                                :id="'scenario-selector-' + scenario.id"
+                                v-model="selected"
+                                class="custom-control-input"
+                                type="checkbox"
+                            >
+
+                            <label
+                                :for="'scenario-selector-' + scenario.id"
+                                class="custom-control-label"
+                            />
+
+                        </div>
+
                     </div>
 
                     <scenario-items
@@ -56,6 +77,18 @@
                 required: true,
             },
         },
+        computed: {
+            selected: {
+                get: vue => vue.$store.getters['scenario/selected'] && vue.$store.getters['scenario/selected'].id === vue.scenario.id,
+                set (value) {
+                    if (value) {
+                        this.$store.dispatch('scenario/select', this.scenario.id)
+                    } else {
+                        this.$store.dispatch('scenario/unselect')
+                    }
+                },
+            },
+        },
     }
 
 </script>
@@ -67,6 +100,10 @@
     img {
         opacity: 0.33;
         transition: ease 1s;
+    }
+
+    .selected img {
+        opacity: 1;
     }
 
     .card-body {

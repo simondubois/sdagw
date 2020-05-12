@@ -46,6 +46,18 @@
 
             <template slot="right">
 
+                <li
+                    v-if="scenario"
+                    class="nav-item text-truncate"
+                >
+                    <span class="navbar-text text-secondary">
+                        <fontawesome-icon icon="scenario" />
+                        <span class="d-none d-sm-inline">
+                            {{ $t('scenario.names.' + scenario.id) }}
+                        </span>
+                    </span>
+                </li>
+
                 <li class="nav-item text-nowrap">
                     <span class="navbar-text text-success">
                         <fontawesome-icon
@@ -103,6 +115,7 @@
         computed: {
             evilValue: vue => vue.$store.getters['figurine/selectionValue']('evil'),
             goodValue: vue => vue.$store.getters['figurine/selectionValue']('good'),
+            scenario: vue => vue.$store.getters['scenario/selected'],
             sceneryCount: vue => vue.$store.getters['scenery/selected'].length,
         },
     }
